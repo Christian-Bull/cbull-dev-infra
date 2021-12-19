@@ -1,0 +1,14 @@
+project: default
+source:
+  repoURL: 'https://github.com/Christian-Bull/cbull-dev.git'
+  path: manifests
+  targetRevision: main
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: cbull-dev
+syncPolicy:
+  automated:
+    prune: true
+    selfHeal: true
+  syncOptions:
+    - CreateNamespace=true
