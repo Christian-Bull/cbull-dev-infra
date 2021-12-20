@@ -1,6 +1,6 @@
 project: default
 source:
-  repoURL: 'https://github.com/Christian-Bull/cbull-dev.git'
+  repoURL: 'https://github.com/Christian-Bull/cbull-dev-infra.git'
   path: manifests
   targetRevision: main
 destination:
