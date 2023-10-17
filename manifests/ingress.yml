@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: cbull-dev
-  namespace: cbull-dev
+  namespace: cbull
   labels:
     app: cbull-dev
   annotations:
